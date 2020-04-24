@@ -1,0 +1,14 @@
+spring:
+  profiles: default
+  application:
+    name: flight-data-service
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: assignment
+logging:
+  level:
+    root: INFO
+server:
+  port: 8082
